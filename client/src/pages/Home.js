@@ -8,6 +8,12 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
+const styles = {
+  titleDiv: {
+    marginTop: "80px"
+  }
+}
+
 class Home extends Component {
   state = {
     books: [],
@@ -60,14 +66,14 @@ class Home extends Component {
     return (
       <Container>
         <Row>
-          <Col size="md-12">
+          <div className="col-12" style={styles.titleDiv}>
             <Jumbotron>
-              <h1 className="text-center">
+              <h1 className="text-left">
                 <strong>(React) Google Books Search</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="text-left">Search for and Save Books of Interest.</h2>
             </Jumbotron>
-          </Col>
+          </div>
           <Col size="md-12">
             <Card title="Book Search" icon="far fa-book">
               <Form
@@ -95,7 +101,7 @@ class Home extends Component {
                       Button={() => (
                         <button
                           onClick={() => this.handleBookSave(book.id)}
-                          className="btn btn-primary ml-2"
+                          className="btn blue-gradient ml-2"
                         >
                           Save
                         </button>

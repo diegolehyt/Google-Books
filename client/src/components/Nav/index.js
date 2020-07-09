@@ -32,8 +32,8 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
-        <Link className="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2 fixed-top scrolling-navbar">
+        <Link className="navbar-brand font-weight-bold" to="/">
           Google Books
         </Link>
         <button

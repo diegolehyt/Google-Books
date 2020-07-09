@@ -1,3 +1,10 @@
 .jumbotron {
   padding: 100px;
 }
+
+.bc {
+  background-image: url('https://static.voices.com/wp-content/uploads/MR-1882-open-book-on-green-grungy.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}

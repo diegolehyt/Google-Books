@@ -7,6 +7,12 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
+const styles = {
+  titleDiv: {
+    marginTop: "80px"
+  }
+}
+
 class Saved extends Component {
   state = {
     books: []
@@ -34,14 +40,14 @@ class Saved extends Component {
     return (
       <Container>
         <Row>
-          <Col size="md-12">
+          <div className="col-12" style={styles.titleDiv}>
             <Jumbotron>
               <h1 className="text-center">
                 <strong>(React) Google Books Search</strong>
               </h1>
               <h2 className="text-center">Search for and Save Books of Interest.</h2>
             </Jumbotron>
-          </Col>
+          </div>
         </Row>
         <Row>
           <Col size="md-12">
