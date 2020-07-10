@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
+const styles = {
+  imgB: {
+    marginRight: "10px"
+  }
+}
+
 class Nav extends Component {
   state = {
     open: false,
@@ -33,7 +39,7 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2 fixed-top scrolling-navbar">
-        <Link className="navbar-brand font-weight-bold" to="/">
+        <Link className="navbar-brand font-weight-bold" to="/"><img src="icon.png" width="40px" height="40px" tabindex="-1" style={styles.imgB} alt="logo"/>
           Google Books
         </Link>
         <button

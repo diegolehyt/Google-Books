@@ -29,7 +29,7 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: #c96dffd8 !important;
+    background-color: #0091ea !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -38,7 +38,7 @@ header,
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-    background: #c96dffd8 !important;
+        background: #0091ea !important;
     }
 }
 
@@ -79,4 +79,23 @@ button.close {
     height: 600px;
     }
 }
+
+.btnBc {
+    background: linear-gradient(90deg, #07e45f 0%, #00b448 35%, #007E33 100%);
+    color: white;
+}
+.btnBc3 {
+    background: linear-gradient(90deg, rgb(175, 175, 175) 0%, rgb(207, 207, 207) 35%, rgb(241, 241, 241) 100%);
+}
+.btnBc2 {
+    background: linear-gradient(90deg, #ff4444 0%, #c93636 35%, #CC0000 100%);
+    color: white;
+}
+.btnBc4 {
+    background: linear-gradient(90deg, #18ffcd 0%, #00ffb3 35%, #00d49f 100%);
+    color:black;
+    font-weight: bold;
+}
+
+
 

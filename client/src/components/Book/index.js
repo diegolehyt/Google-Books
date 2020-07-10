@@ -13,7 +13,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
         </Col>
         <Col size="md-4">
           <div className="btn-container">
-            <a className="btn btn-light" target="_blank" rel="noopener noreferrer" href={link}>
+            <a className="btn blue-gradient" target="_blank" rel="noopener noreferrer" href={link}>
               View
             </a>
             <Button />
