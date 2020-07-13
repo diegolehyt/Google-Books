@@ -1,5 +1,5 @@
-# Google-Books! [Diego](https://img.shields.io/badge/version-v1.0.0-yellow) ![code size](https://img.shields.io/github/languages/code-size/diegolehyt/Google-Books) ![language](https://img.shields.io/github/languages/top/diegolehyt/Google-Books) ![last comit](https://img.shields.io/github/last-commit/diegolehyt/Google-Books)  
-### Homework - 19 / Employee Directory with React app
+# Google Books Search ![Diego](https://img.shields.io/badge/version-v1.0.0-yellow) ![code size](https://img.shields.io/github/languages/code-size/diegolehyt/Google-Books) ![language](https://img.shields.io/github/languages/top/diegolehyt/Google-Books) ![last comit](https://img.shields.io/github/last-commit/diegolehyt/Google-Books)  
+### Homework - 21 / Google Search with React app
 
 - Link to Deploy app, at the end. [>> GO ⬇️ <<](#url)
 
@@ -68,7 +68,7 @@ This repository content the necessary files to host a express server using the M
 ## 📀Features
 - Material Design for Bootstrap styles
 
-  ![neon](assets/4.gif)
+  ![neon](assets/1.png)
 
 
 ## 🔗URL  
@@ -83,4 +83,3 @@ This repository content the necessary files to host a express server using the M
 ![Profile img](https://avatars1.githubusercontent.com/u/59458188?v=4)
 
 ✉️ E-mail: diegolehy00@gmail.com
-
